@@ -1,0 +1,49 @@
+{
+  "name": "angular2-flux-karma",
+  "version": "0.0.8",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start",
+    "pack": "./node_modules/.bin/webpack --watch",
+    "start": "./node_modules/.bin/http-server"
+  },
+  "author": "vladimir-ivanov@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "dedupe-plugin": "^1.0.0",
+    "http-server": "^0.8.5",
+    "jasmine-core": "2.4.1",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-es6-shim": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs2-launcher": "^0.3.2",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "object-assign": "^4.0.1",
+    "phantomjs": "^1.9.19",
+    "raw-loader": "^0.5.1",
+    "remap-istanbul": "^0.4.0",
+    "tsd": "^0.6.3",
+    "tslint": "^3.1.1",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "webpack-vendor-chunk-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "flux": "^2.1.1",
+    "immutable": "^3.7.5",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "ts-loader": "^0.7.2",
+    "zone.js": "0.5.10"
+  }
+}

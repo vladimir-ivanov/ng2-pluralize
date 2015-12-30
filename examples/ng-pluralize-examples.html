@@ -1,0 +1,72 @@
+<style>ngPluralize {
+    display: block;
+}</style>
+
+<h5>Example without offset</h5>
+
+<ngPluralize [count]="0"
+             [when]="{'0': 'Nobody is viewing.',
+                     'one': '1 person is viewing.',
+                     'other': '{} people are viewing.'}">
+</ngPluralize>
+
+<ngPluralize [count]="1"
+             [when]="{'0': 'Nobody is viewing.',
+                     'one': '1 person is viewing.',
+                     'other': '{} people are viewing.'}">
+</ngPluralize>
+
+
+<ngPluralize [count]="3"
+             [when]="{'0': 'Nobody is viewing.',
+                     'one': '1 person is viewing.',
+                     'other': '{} people are viewing.'}">
+</ngPluralize>
+
+<h5>Example with offset</h5>
+
+<ngPluralize [count]="0"
+             [offset]="2"
+             [when]="{'0': 'Nobody is viewing.',
+                     '1': person1 + ' is viewing.',
+                     '2': person1 + ' and ' + person2 + ' are viewing.',
+                     'one': person1 + ', ' + person2 + '  and one other person are viewing.',
+                     'other': person1 + ', ' + person2 + ' and {} other people are viewing.'}">
+</ngPluralize>
+
+<ngPluralize [count]="1"
+             [offset]="2"
+             [when]="{'0': 'Nobody is viewing.',
+                     '1': person1 + ' is viewing.',
+                     '2': person1 + ' and ' + person2 + ' are viewing.',
+                     'one': person1 + ', ' + person2 + '  and one other person are viewing.',
+                     'other': person1 + ', ' + person2 + ' and {} other people are viewing.'}">
+</ngPluralize>
+
+
+<ngPluralize [count]="2"
+             [offset]="2"
+             [when]="{'0': 'Nobody is viewing.',
+                     '1': person1 + ' is viewing.',
+                     '2': person1 + ' and ' + person2 + ' are viewing.',
+                     'one': person1 + ', ' + person2 + '  and one other person are viewing.',
+                     'other': person1 + ', ' + person2 + ' and {} other people are viewing.'}">
+</ngPluralize>
+
+<ngPluralize [count]="3"
+             [offset]="2"
+             [when]="{'0': 'Nobody is viewing.',
+                     '1': person1 + ' is viewing.',
+                     '2': person1 + ' and ' + person2 + ' are viewing.',
+                     'one': person1 + ', ' + person2 + '  and one other person are viewing.',
+                     'other': person1 + ', ' + person2 + ' and {} other people are viewing.'}">
+</ngPluralize>
+
+<ngPluralize [count]="4"
+             [offset]="2"
+             [when]="{'0': 'Nobody is viewing.',
+                     '1': person1 + ' is viewing.',
+                     '2': person1 + ' and ' + person2 + ' are viewing.',
+                     'one': person1 + ', ' + person2 + '  and one other person are viewing.',
+                     'other': person1 + ', ' + person2 + ' and {} other people are viewing.'}">
+</ngPluralize>
