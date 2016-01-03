@@ -1,7 +1,6 @@
-# ng2-directives
-Directives for ng2
+# ng2-pluralize 
+NgPluralize directive for ng2 / angular2 - ng-plurzlize angular 1 equivalent
 
-*NgPluralize - ng-pluralize for angular2 replacement
 ## Running the examples
 
 1. Install the dependencies
